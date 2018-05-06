@@ -9,8 +9,7 @@
 		<version>1.0-SNAPSHOT</version>
 		<relativePath>../yt-audiobooks-parent</relativePath>
 	</parent>
-
-	<groupId>org.woehlke.tools.yt.audiobooks</groupId>
+	
 	<artifactId>yt-audiobooks-terryprattchet</artifactId>
 	<version>${parent.version}</version>
 	<packaging>jar</packaging>

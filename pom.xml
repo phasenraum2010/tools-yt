@@ -61,18 +61,14 @@
         <failsafe.skipAfterFailureCount>1</failsafe.skipAfterFailureCount>
         <surefire.skipAfterFailureCount>1</surefire.skipAfterFailureCount>
         <resource.delimiter>@</resource.delimiter>
-
-        <!--
-        <main.basedir>../${basedir}</main.basedir>
-        -->
         <org.apache.maven.scm.plugin.version>1.9.5</org.apache.maven.scm.plugin.version>
         <org.apache.maven.plugins.maven-scm-publish-plugin.version>3.0.0</org.apache.maven.plugins.maven-scm-publish-plugin.version>
         <org.apache.maven.plugins.maven-release-plugin.version>2.5.3</org.apache.maven.plugins.maven-release-plugin.version>
-
         <org.apache.maven.plugins.maven-site-plugin>3.7.1</org.apache.maven.plugins.maven-site-plugin>
-
         <spring-statemachine.version>2.0.1.RELEASE</spring-statemachine.version>
         <spring-shell.version>2.0.0.RELEASE</spring-shell.version>
+        <org.codehaus.plexus.plexus-utils.version>3.0.15</org.codehaus.plexus.plexus-utils.version>
+        <org.apache.maven.plugins.maven-scm-publish-plugin.version>3.0.0</org.apache.maven.plugins.maven-scm-publish-plugin.version>
     </properties>
 
     <modules>
@@ -91,7 +87,7 @@
             <dependency>
                 <groupId>org.codehaus.plexus</groupId>
                 <artifactId>plexus-utils</artifactId>
-                <version>3.0.15</version>
+                <version>${org.codehaus.plexus.plexus-utils.version}</version>
                 <scope>compile</scope>
             </dependency>
             <dependency>
@@ -194,7 +190,7 @@
             <dependency>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-scm-publish-plugin</artifactId>
-                <version>3.0.0</version>
+                <version>${org.apache.maven.plugins.maven-scm-publish-plugin.version}</version>
                 <type>maven-plugin</type>
             </dependency>
             <dependency>

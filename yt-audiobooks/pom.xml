@@ -28,13 +28,10 @@
         <failsafe.skipAfterFailureCount>1</failsafe.skipAfterFailureCount>
         <surefire.skipAfterFailureCount>1</surefire.skipAfterFailureCount>
         <resource.delimiter>@</resource.delimiter>
-        <main.basedir>../${project.basedir}/</main.basedir>
         <org.apache.maven.scm.plugin.version>1.9.5</org.apache.maven.scm.plugin.version>
         <org.apache.maven.plugins.maven-scm-publish-plugin.version>3.0.0</org.apache.maven.plugins.maven-scm-publish-plugin.version>
         <org.apache.maven.plugins.maven-release-plugin.version>2.5.3</org.apache.maven.plugins.maven-release-plugin.version>
-
         <org.apache.maven.plugins.maven-site-plugin>3.7.1</org.apache.maven.plugins.maven-site-plugin>
-
         <spring-statemachine.version>2.0.1.RELEASE</spring-statemachine.version>
         <spring-shell.version>2.0.0.RELEASE</spring-shell.version>
     </properties>
