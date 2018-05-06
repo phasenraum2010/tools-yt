@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.woehlke.tools.yt</groupId>
+        <artifactId>yt-tools</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>..</relativePath>
+    </parent>
+    
+    <groupId>org.woehlke.tools.yt.audiobooks</groupId>
+    <artifactId>yt-audiobooks</artifactId>
+
+    <version>${parent.version}</version>
+    <packaging>pom</packaging>
+
+    <name>yt-audiobooks</name>
+    <description>installs yt-audiobooks</description>
+    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <failsafe.skipAfterFailureCount>1</failsafe.skipAfterFailureCount>
+        <surefire.skipAfterFailureCount>1</surefire.skipAfterFailureCount>
+        <resource.delimiter>@</resource.delimiter>
+        <main.basedir>../${project.basedir}/</main.basedir>
+        <org.apache.maven.scm.plugin.version>1.9.5</org.apache.maven.scm.plugin.version>
+        <org.apache.maven.plugins.maven-scm-publish-plugin.version>3.0.0</org.apache.maven.plugins.maven-scm-publish-plugin.version>
+        <org.apache.maven.plugins.maven-release-plugin.version>2.5.3</org.apache.maven.plugins.maven-release-plugin.version>
+
+        <org.apache.maven.plugins.maven-site-plugin>3.7.1</org.apache.maven.plugins.maven-site-plugin>
+
+        <spring-statemachine.version>2.0.1.RELEASE</spring-statemachine.version>
+        <spring-shell.version>2.0.0.RELEASE</spring-shell.version>
+    </properties>
+
+    <modules>
+        <module>yt-audiobooks-parent</module>
+        <!-- modules -->
+        <module>yt-audiobooks-bibel</module>
+        <module>yt-audiobooks-commanderperkins</module>
+        <module>yt-audiobooks-dreifragezeichen</module>
+        <module>yt-audiobooks-markbrandis</module>
+        <module>yt-audiobooks-scifi</module>
+        <module>yt-audiobooks-terryprattchet</module>
+    </modules>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.maven.scm</groupId>
+            <artifactId>maven-scm-provider-jgit</artifactId>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+    <!-- https://maven.apache.org/plugins/maven-project-info-reports-plugin/plugin-management.html -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-scm-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-scm-publish-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
