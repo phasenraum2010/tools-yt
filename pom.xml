@@ -192,12 +192,6 @@
                 <artifactId>maven-scm-publish-plugin</artifactId>
                 <version>${org.apache.maven.plugins.maven-scm-publish-plugin.version}</version>
                 <type>maven-plugin</type>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-scm-publish-plugin</artifactId>
-                <version>${org.apache.maven.plugins.maven-scm-publish-plugin.version}</version>
-                <type>maven-plugin</type>
                 <scope>compile</scope>
             </dependency>
             <!-- release -->
