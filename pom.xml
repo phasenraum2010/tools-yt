@@ -114,12 +114,14 @@
                 <version>${org.apache.maven.scm.plugin.version}</version>
                 <scope>compile</scope>
             </dependency>
+            <!--
             <dependency>
                 <groupId>org.apache.maven.scm</groupId>
                 <artifactId>maven-scm-provider-standalone</artifactId>
                 <version>${org.apache.maven.scm.plugin.version}</version>
                 <scope>compile</scope>
             </dependency>
+            -->
             <dependency>
                 <groupId>org.apache.maven.scm</groupId>
                 <artifactId>maven-scm-provider-integrity</artifactId>
