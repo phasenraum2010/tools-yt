@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    
+
     <groupId>org.woehlke.tools.yt</groupId>
     <artifactId>yt-tools</artifactId>
 
@@ -215,25 +215,16 @@
                 <artifactId>tools</artifactId>
                 <classifier>jar</classifier>
                 <version>0</version>
-                <scope>system</scope>
-                <systemPath>${java.home}/../lib/tools.jar</systemPath>
+                <scope>compile</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.maven.scm</groupId>
-            <artifactId>maven-scm-provider-jgit</artifactId>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
             <groupId>com.sun</groupId>
             <artifactId>tools</artifactId>
-            <classifier>jar</classifier>
-            <version>0</version>
-            <scope>system</scope>
-            <systemPath>${java.home}/../lib/tools.jar</systemPath>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
