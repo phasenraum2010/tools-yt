@@ -39,12 +39,15 @@
     <modules>
         <module>yt-audiobooks-parent</module>
         <!-- modules -->
-        <module>yt-audiobooks-bibel</module>
-        <module>yt-audiobooks-commanderperkins</module>
-        <module>yt-audiobooks-dreifragezeichen</module>
-        <module>yt-audiobooks-markbrandis</module>
-        <module>yt-audiobooks-scifi</module>
-        <module>yt-audiobooks-terryprattchet</module>
+        <module>yt-audiobooks-clickdummy</module>
+        <module>yt-audiobooks-dev</module>
+        <module>yt-audiobooks-doc</module>
+        <module>yt-audiobooks-engineering</module>
+        <module>yt-audiobooks-frontend</module>
+        <module>yt-audiobooks-int</module>
+        <module>yt-audiobooks-prod</module>
+        <module>yt-audiobooks-test</module>
+        <module>yt-audiobooks-tryout</module>
     </modules>
     
     <dependencies>

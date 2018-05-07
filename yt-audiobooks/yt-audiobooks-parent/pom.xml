@@ -651,8 +651,66 @@
                         <configuration>
                             <rules>
                                 <requireMavenVersion>
-                                    <version>3.5.3</version>
+                                    <version>3.3.9</version>
                                 </requireMavenVersion>
+                                    <requireProperty>
+                                        <property>project.build.sourceEncoding</property>
+                                    </requireProperty>
+
+                                <requireProperty>
+                                    <property>project.reporting.outputEncoding</property>
+                                </requireProperty>
+                                <requireProperty>
+                                    <property>java.version</property>
+                                </requireProperty>
+                                <requireProperty>
+                                    <property>maven.compiler.source</property>
+                                </requireProperty>
+                                <requireProperty>
+                                    <property>maven.compiler.target</property>
+                                </requireProperty>
+                                <requireProperty>
+                                    <property>failsafe.skipAfterFailureCount</property>
+                                </requireProperty>
+                                <requireProperty>
+                                    <property>surefire.skipAfterFailureCount</property>
+                                </requireProperty>
+                                <requireProperty>
+                                    <property>resource.delimiter</property>
+                                </requireProperty>
+                                <requireProperty>
+                                    <property>org.webjars.jquery.version</property>
+                                </requireProperty>
+                                <requireProperty>
+                                    <property>org.webjars.bootstrap.version</property>
+                                </requireProperty>
+                                <requireProperty>
+                                    <property>resource.delimiter</property>
+                                </requireProperty>
+                                <requireProperty>
+                                    <property>org.webjars.font-awesome.version</property>
+                                </requireProperty>
+                                <requireProperty>
+                                    <property>org.springframework.boot.spring-boot-maven-plugin.version</property>
+                                </requireProperty>
+                                <requireProperty>
+                                    <property>org.apache.maven.plugins.maven-site-plugin</property>
+                                </requireProperty>
+                                <requireProperty>
+                                    <property>org.apache.maven.scm.plugin.version</property>
+                                </requireProperty>
+                                <requireProperty>
+                                    <property>org.apache.maven.plugins.maven-scm-publish-plugin.version</property>
+                                </requireProperty>
+                                <requireProperty>
+                                    <property>org.apache.maven.plugins.maven-release-plugin.version</property>
+                                </requireProperty>
+                                <requireProperty>
+                                    <property>spring-statemachine.version</property>
+                                </requireProperty>
+                                <requireProperty>
+                                    <property>spring-shell.version</property>
+                                </requireProperty>
                             </rules>
                         </configuration>
                     </execution>
