@@ -5,7 +5,7 @@
 ## Toolchain
 
 ### Java 
-* JDK 9 and 10: Removed rt.jar and tools.jar: https://docs.oracle.com/javase/9/migrate/toc.htm#JSMIG-GUID-055EA9F4-835E-463F-B9E1-9081B3D9E55D
+* JDK 8 and 10: Removed rt.jar and tools.jar: https://docs.oracle.com/javase/9/migrate/toc.htm#JSMIG-GUID-055EA9F4-835E-463F-B9E1-9081B3D9E55D
 
 ### Maven
 * Maven on Java 9 – Six Things You Need To Know: https://blog.codefx.org/tools/maven-on-java-9/
