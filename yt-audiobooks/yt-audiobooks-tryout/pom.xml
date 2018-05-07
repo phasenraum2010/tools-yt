@@ -3,19 +3,18 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-
     <parent>
-        <groupId>org.woehlke.tools.yt.audiobooks</groupId>
-        <artifactId>yt-audiobooks-parent</artifactId>
+        <groupId>org.woehlke.tools.yt</groupId>
+        <artifactId>yt-tools-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../yt-audiobooks-parent</relativePath>
+        <relativePath>../yt-tools-parent</relativePath>
     </parent>
 
-	<artifactId>yt-audiobooks-tryout</artifactId>
+	<artifactId>yt-tools-tryout</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-	<name>yt-audiobooks-tryout</name>
+	<name>yt-tools-tryout</name>
 	<description>Just a new Description</description>
 
 	<dependencies>

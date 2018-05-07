@@ -72,7 +72,17 @@
     </properties>
 
     <modules>
-        <module>yt-audiobooks</module>
+        <module>yt-tools-parent</module>
+        <!-- modules -->
+        <module>yt-tools-clickdummy</module>
+        <module>yt-tools-dev</module>
+        <module>yt-tools-doc</module>
+        <module>yt-tools-engineering</module>
+        <module>yt-tools-frontend</module>
+        <module>yt-tools-int</module>
+        <module>yt-tools-prod</module>
+        <module>yt-tools-test</module>
+        <module>yt-tools-tryout</module>
     </modules>
 
     <dependencyManagement>
