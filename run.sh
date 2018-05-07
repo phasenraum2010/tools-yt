@@ -2,7 +2,7 @@
 
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-mvn -N io.takari:maven:wrapper -Dmaven=3.3.9
+mvn -amd io.takari:maven:wrapper -Dmaven=3.3.9
 
 echo "----------------------"
 echo $JAVA_HOME
