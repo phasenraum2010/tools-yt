@@ -9,20 +9,14 @@
 		<version>1.0-SNAPSHOT</version>
 		<relativePath>../yt-audiobooks-parent</relativePath>
 	</parent>
-	
+
 	<artifactId>yt-audiobooks-test</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>yt-audiobooks-test</name>
 	<description>Just a new Description</description>
-    
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
-    </properties>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -92,5 +86,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	
+
 </project>
