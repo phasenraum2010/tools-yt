@@ -258,6 +258,7 @@
                 <type>maven-plugin</type>
                 <scope>compile</scope>
             </dependency>
+            <!--
             <dependency>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-project-info-reports-plugin</artifactId>
@@ -265,7 +266,7 @@
                 <type>maven-plugin</type>
                 <scope>compile</scope>
             </dependency>
-
+                -->
             <!-- SCM git -->
             <dependency>
                 <groupId>org.apache.maven.scm</groupId>

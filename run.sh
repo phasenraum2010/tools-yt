@@ -2,20 +2,22 @@
 
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-sdk use java 8.0.171-oracle
-
-./switch_JVM_version.sh 8
-
 mvn -N io.takari:maven:wrapper -Dmaven=3.5.3
 
+echo "----------------------"
 echo $JAVA_HOME
-
+echo "----------------------"
 java -version
+echo "----------------------"
 javac -version
+echo "----------------------"
 ./mvnw -version
-
-#./mvnw -U -e -V clean install site -DskipTests=true
-
+echo "----------------------"
 ./mvnw -U -e -V verify
+echo "----------------------"
+# ./mvnw  -U -e -V clean install dependency:tree -DskipTests=true
+echo "----------------------"
+# ./mvnw -U -e -V clean install site -DskipTests=true
+# echo "----------------------"
 
-./mvnw  -U -e -V clean install dependency:tree
+exit 0
