@@ -226,7 +226,7 @@
             <artifactId>tools</artifactId>
             <classifier>jar</classifier>
             <version>0</version>
-            <scope>system</scope>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

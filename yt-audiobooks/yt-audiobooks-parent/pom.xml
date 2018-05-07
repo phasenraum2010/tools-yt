@@ -368,7 +368,7 @@
                 <artifactId>tools</artifactId>
                 <classifier>jar</classifier>
                 <version>0</version>
-                <scope>system</scope>
+                <scope>compile</scope>
             </dependency>
 
         </dependencies>
@@ -544,8 +544,7 @@
             <groupId>com.sun</groupId>
             <artifactId>tools</artifactId>
             <classifier>jar</classifier>
-            <version>0</version>
-            <scope>system</scope>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
@@ -905,6 +904,7 @@
                     <threshold>Low</threshold>
                 </configuration>
             </plugin>
+            <!--
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-project-info-reports-plugin</artifactId>
@@ -913,30 +913,33 @@
                     <dependencyLocationsEnabled>true</dependencyLocationsEnabled>
                 </configuration>
             </plugin>
+            -->
         </plugins>
     </build>
 
     <reporting>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-project-info-reports-plugin</artifactId>
-                <!--
-                <reportSets>
-                    <reportSet>
-                        <reports>
-                            <report>dependencies</report>
-                            <report>project-team</report>
-                            <report>mailing-list</report>
-                            <report>cim</report>
-                            <report>issue-tracking</report>
-                            <report>license</report>
-                            <report>scm</report>
-                        </reports>
-                    </reportSet>
-                </reportSets>
-                -->
+            <!--
+           <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-project-info-reports-plugin</artifactId>
+
+               <reportSets>
+                   <reportSet>
+                       <reports>
+                           <report>dependencies</report>
+                           <report>project-team</report>
+                           <report>mailing-list</report>
+                           <report>cim</report>
+                           <report>issue-tracking</report>
+                           <report>license</report>
+                           <report>scm</report>
+                       </reports>
+                   </reportSet>
+               </reportSets>
+
             </plugin>
+             -->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
