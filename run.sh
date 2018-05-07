@@ -15,9 +15,9 @@ echo "----------------------"
 echo "----------------------"
 ./mvnw -U -e -V verify
 echo "----------------------"
-# ./mvnw  -U -e -V clean install dependency:tree -DskipTests=true
+./mvnw  -U -e -V clean install dependency:tree -DskipTests=true
 echo "----------------------"
-# ./mvnw -U -e -V clean install site -DskipTests=true
-# echo "----------------------"
+./mvnw -U -e -V clean install site -DskipTests=true
+echo "----------------------"
 
 exit 0
