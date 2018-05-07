@@ -64,7 +64,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>10</java.version>
+        <java.version>8</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <failsafe.skipAfterFailureCount>1</failsafe.skipAfterFailureCount>
@@ -512,7 +512,14 @@
             <type>maven-plugin</type>
             <scope>compile</scope>
         </dependency>
-
+        <dependency>
+            <groupId>com.sun</groupId>
+            <artifactId>tools</artifactId>
+            <classifier>jar</classifier>
+            <version>0</version>
+            <scope>system</scope>
+            <systemPath>${java.home}/../lib/tools.jar</systemPath>
+        </dependency>
     </dependencies>
 
     <!-- https://maven.apache.org/plugins/maven-project-info-reports-plugin/plugin-management.html -->
