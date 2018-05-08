@@ -48,7 +48,6 @@
             <id>snapshots</id>
             <name>tux.fritz.box-snapshots</name>
             <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
-            <uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
 
