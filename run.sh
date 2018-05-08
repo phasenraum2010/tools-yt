@@ -13,9 +13,9 @@ javac -version
 echo "----------------------"
 ./mvnw -version
 echo "----------------------"
-./mvnw -U -e -V verify
+./mvnw -U -e -V verify -Panimalsniffer
 echo "----------------------"
-./mvnw  -U -e -V clean install dependency:tree -DskipTests=true
+./mvnw  -U -e -V clean install dependency:tree -DskipTests=true -Panimalsniffer
 echo "----------------------"
 ./mvnw -U -e -V clean install site -DskipTests=true
 echo "----------------------"
