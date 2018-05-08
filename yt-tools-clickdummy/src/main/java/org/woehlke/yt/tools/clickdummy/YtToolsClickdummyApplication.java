@@ -1,4 +1,4 @@
-package org.woehlke.tools.yt.audiobooks.clickdummy;
+package org.woehlke.yt.tools.clickdummy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @EnableAutoConfiguration
 //@SpringBootApplication
-public class YtAudiobooksClickdummyApplication {
+public class YtToolsClickdummyApplication {
 
     @RequestMapping("/")
     @ResponseBody
@@ -20,6 +20,6 @@ public class YtAudiobooksClickdummyApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(YtAudiobooksClickdummyApplication.class, args);
+        SpringApplication.run(YtToolsClickdummyApplication.class, args);
     }
 }
